@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "ExFrase";
+}
+<center>
+    <p class="pa" id="hora">erro</p>
+    <button class="button" type="button" id="btn" onclick="btn()">CLICA AQUI VEI</button>
+    <p class="pa" id="parag">clica la no botão vei</p>
+</center>
+
+<!-- JAVASCRIPT -->
+<script>
+    function btn() {
+        var frase = prompt("Fala tu!!");
+        if(frase != null && frase!="")
+        document.getElementById("parag").innerHTML = "mano, "+frase+".";
+
+    }
+
+        var hora = new Date().toLocaleString();
+        document.getElementById("hora").innerHTML = hora;
+
+        setInterval(function(){
+            var hora = new Date().toLocaleString();
+            document.getElementById("hora").innerHTML = hora;
+        },1000)
+</script>

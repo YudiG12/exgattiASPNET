@@ -1,0 +1,27 @@
+<center>
+        <button style="margin-top:180px" class="button" type="button" id="btn" onclick="btn()">butaozin</button>            
+        <p class="pa" id="parag">clica aííí</p>
+    </center>
+<script>
+
+    function btn() {
+        var codPeca = prompt("Qual o código da peça?");
+        if(isNaN(codPeca) || codPeca == "" || codPeca == null) {
+            document.getElementById("parag").innerHTML = "Isso aí n é um número parça";                    
+            end;
+        }
+        var valorPeca = prompt("Qual o valor da peça?");
+        if(isNaN(valorPeca) || valorPeca == "" || valorPeca == null) {
+            document.getElementById("parag").innerHTML = "Isso aí n é um número parça";                    
+            end;
+        }
+        var qtdPecas = prompt("Quantas peças?");
+        if(isNaN(qtdPecas) || qtdPecas == "" || qtdPecas == null) {
+            document.getElementById("parag").innerHTML = "Isso aí n é um número parça";                    
+            end;
+        }
+        var total = valorPeca*qtdPecas;
+        document.getElementById("parag").innerHTML = "Código: "+codPeca+"\nValor total: R$"+total;
+    }
+
+</script>

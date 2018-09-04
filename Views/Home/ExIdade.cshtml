@@ -1,0 +1,38 @@
+<center>
+    <button style="margin-top:180px" class="button" type="button" id="btn" onclick="btn()">butaon</button>            
+    <p class="pa" id="parag">clica aí no botao vei</p>
+
+    <script>
+        function btn(){
+            var nome = prompt("Qual seu nome?");
+            
+            if(isNaN(nome)) {
+                var ano = prompt("Que ano vc nasceu?");
+                if(ano != null && ano != ""){
+                var idade = 2018 - ano;
+                    if(ano > 1900 && ano < 2019) {
+                        document.getElementById("parag").innerHTML = "Eae "+nome+", vc tem " + idade + " anos.";
+                    }
+                    else if(isNaN(ano)) {
+                        document.getElementById("parag").innerHTML = "ano tem q ser número né pourra?";
+                    }
+                    else if(ano <= 1900) {
+                        document.getElementById("parag").innerHTML = "ta velho pacarai em?";
+                    }
+                    else {
+                        document.getElementById("parag").innerHTML = "tu veio do futuro porra?";
+                    }
+                }
+            }
+            else if(nome== "") {
+                document.getElementById("parag").innerHTML = "digita alguma coisa né mano";
+            }
+            else if(nome== null) {
+                end;
+            }
+            else {
+                document.getElementById("parag").innerHTML = "vc se chama "+nome+" agora porra?";
+            }
+        }
+    </script>
+</center>
