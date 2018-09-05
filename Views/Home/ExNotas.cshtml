@@ -1,0 +1,32 @@
+<!-- ·      6,0 de matemática
+
+·      6,5 de português
+
+·      7,0 de história
+
+·      10,0 de artes
+
+·      6,3 de educação física -->
+<center>
+    <button class="button" onclick="calc()">Notas do Daniel</button>
+    <p style="margin-top:15px" class="pa" id="pa"></p>
+</center>
+<script>
+    function nota(nota1) {
+        var nota2 = 16-nota1;
+        return nota2;
+    }
+    function calc() {
+        var mat = nota(6);
+        var por = nota(6.5);
+        var his = nota(7);
+        var art = nota(10);
+        var edu = nota(6.3);
+
+        document.getElementById("pa").innerHTML = "Matemática: "+mat+"<br>"+
+                                                "Portugûes: "+por+"<br>"+
+                                                "História: "+his+"<br>"+
+                                                "Artes: "+art+"<br>"+
+                                                "Educação física: "+edu;
+    }
+</script>
