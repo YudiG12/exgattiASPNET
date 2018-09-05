@@ -33,3 +33,4 @@ C:\Users\aluno\Desktop\exgattiASPNET\obj\Debug\netcoreapp2.1\Razor\Views\Home\Ex
 C:\Users\aluno\Desktop\exgattiASPNET\obj\Debug\netcoreapp2.1\Razor\Views\Home\ExPecas.g.cshtml.cs
 C:\Users\aluno\Desktop\exgattiASPNET\obj\Debug\netcoreapp2.1\Razor\Views\Home\ExSoma.g.cshtml.cs
 C:\Users\aluno\Desktop\exgattiASPNET\obj\Debug\netcoreapp2.1\Razor\Views\Home\ExAreaTriangulo.g.cshtml.cs
+C:\Users\aluno\Desktop\exgattiASPNET\obj\Debug\netcoreapp2.1\Razor\Views\Home\ExJuros.g.cshtml.cs

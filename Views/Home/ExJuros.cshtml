@@ -1,0 +1,13 @@
+<center>
+    <input style="width:30%;margin-top:100px" id="meses" class="form-control" type="number" placeholder="Quantidade de meses">
+    <button class="button" id="btn" onclick="calc()">Calcular</button>
+    <p class="pa"id="pa"></p>
+</center>
+
+<script>
+    function calc() {
+        var meses = document.getElementById("meses").value;
+        var resultado = 1275*(1+(0.01*meses));
+        document.getElementById("pa").innerHTML = "R$"+resultado;
+    }
+</script>
